@@ -1,0 +1,11 @@
+{
+    "name": "fleet-logbook-app",
+    "private": true,
+    "type": "module",
+    "workspaces": ["shared"],
+    "engines": { "node": ">=26" },
+    "scripts": {
+        "test": "npm run test --workspaces --if-present"
+    }
+}
+
